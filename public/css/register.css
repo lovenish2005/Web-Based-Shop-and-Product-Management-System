@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+
+    background-image:url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab");
+    background-size:cover;
+    background-position:center;
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.register-box{
+    background-color:white;
+
+    width:350px;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    text-align:center;
+}
+
+.register-box h1{
+    margin-bottom:20px;
+}
+
+#registerForm{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#registerForm input{
+    padding:12px;
+    font-size:16px;
+
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+#registerForm button{
+    padding:12px;
+
+    background-color:#007bff;
+    color:white;
+
+    border:none;
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+#registerForm button:hover{
+    background-color:#0056b3;
+}
+
+p{
+    margin-top:15px;
+}

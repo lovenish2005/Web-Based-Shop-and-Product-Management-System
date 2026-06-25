@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+
+    background-image:url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab");
+    background-size:cover;
+    background-position:center;
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.login-box{
+    background-color:white;
+
+    width:350px;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    text-align:center;
+}
+
+.login-box h1{
+    margin-bottom:20px;
+}
+
+#loginForm{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#loginForm input{
+    padding:12px;
+    font-size:16px;
+
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+#loginForm button{
+    padding:12px;
+
+    background-color:#28a745;
+    color:white;
+
+    border:none;
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+#loginForm button:hover{
+    background-color:#218838;
+}
+
+p{
+    margin-top:15px;
+}

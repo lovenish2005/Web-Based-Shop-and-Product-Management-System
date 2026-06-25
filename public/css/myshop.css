@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+
+    background-image:url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab");
+    background-size:cover;
+    background-position:center;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.shop-box{
+    background:white;
+
+    width:400px;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    text-align:center;
+}
+
+.shop-box h1{
+    margin-bottom:20px;
+}
+
+#shopForm{
+    display:flex;
+    flex-direction:column;
+
+    gap:15px;
+}
+.buttons button{
+    border: 1px solid grey;
+    padding:12px 20px;
+    margin:10px;
+   
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#shopForm input{
+    padding:12px;
+
+    border:1px solid #ccc;
+    border-radius:5px;
+
+    font-size:16px;
+}
+
+#shopForm button{
+    padding:12px;
+
+    border:none;
+    border-radius:5px;
+
+    cursor:pointer;
+
+    background:#28a745;
+    color:white;
+}
+
+#shopForm button:hover{
+    background:#218838;
+}
+
+#shopList{
+    margin-top:20px;
+    
+}
+.shop-card{
+    margin-top:20px;
+}
+
+.shop-card img{
+    width:200px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.shop-card h2{
+    margin-top:10px;
+}
